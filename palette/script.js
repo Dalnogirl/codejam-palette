@@ -2,6 +2,7 @@ let canvas = document.querySelector("canvas");
 let ctx = canvas.getContext('2d');
 let color = '#000000';
 let inputColor = document.querySelector('#input-color');
+
 inputColor.oninput = function () {
     color = this.value;
 }
