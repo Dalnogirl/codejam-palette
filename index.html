@@ -16,13 +16,13 @@
         <div class="wrapper">
             <div class="header-logo">
                 <button class="menu-button">
-                    <img src="/img/Shape.svg" alt="">
+                    <img src="./img/Shape.svg" alt="">
                 </button>
                 <p class="logo">CodeJam - Pallete</p>
             </div>
             <div class="header-settings">
                 <button class="settings">
-                    <img src="/img/Shape-right.svg" alt="">
+                    <img src="./img/Shape-right.svg" alt="">
                 </button>
             </div>
         </div>
@@ -31,30 +31,29 @@
     <main>
         <div class="wrapper-col">
             <div class="card">
-                <button>
-                    <img src="/img/bucket.svg" alt="">
+                <button id="bucket">
+                    <img src="./img/bucket.svg" alt="">
                     <p>Paint bucket</p>
                 </button>
-                <button>
-                    <img src="/img/color.svg" alt="">
+                <button id="eye-dropper">
+                    <img src="./img/color.svg" alt="">
                     <p>Choose color</p>
                 </button>
-                <button>
-                    <img src="/img/move.svg" alt="">
-                    <p>Move</p>
+                <button class="active" id="pencil">
+                    <p>Pencil</p>
                 </button>
                 <button>
-                    <img src="/img/transform.svg" alt="">
+                    <img src="./img/transform.svg" alt="">
                     <p>Transform</p>
                 </button>
             </div>
             <div class="card">
                 <button>
-                    <img src="/img/gray.svg" alt="">
-                    <p>Current color</p>
+                    <input type="color" id="input-color">
+                    <p>Choose color</p>
                 </button>
                 <button>
-                    <img src="/img/prev.svg" alt="">
+                    <img src="./img/prev.svg" alt="">
                     <p>Prev color</p>
                 </button>
                 <button>
@@ -62,21 +61,13 @@
                     <p>red</p>
                 </button>
                 <button>
-                    <img src="/img/blue.svg" alt="">
+                    <img src="./img/blue.svg" alt="">
                     <p>blue</p>
                 </button>
             </div>
         </div>
-        <canvas></canvas>
-        <div class="card controls">
-            <button id="first">
-                <p>4x4</p>
-            </button>
-            <button id='second'>
-                <p>32x32</p>
-            </button>
-
-        </div>
+        <canvas width="512px" height="512px"></canvas>
+        
     </main>
 
 
