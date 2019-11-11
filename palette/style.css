@@ -381,6 +381,9 @@ textarea {
 .controls {
   height: 114px; }
 
+  .active {
+    background-color: lightgray !important;
+  }
 header {
   height: 48px;
   width: 100%;
@@ -394,6 +397,13 @@ main {
   justify-content: space-between; }
 
 canvas {
-  margin-right: 100px; }
+  margin-right: 100px;
+  border: 1px solid #000000; }
+
+.input-color {
+    border:none;
+    padding: none;
+    
+}
 
 /*# sourceMappingURL=main.css.map */
